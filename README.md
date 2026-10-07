@@ -108,14 +108,12 @@ The analysis uses statistical summaries and visualizations to identify patterns 
 
 ### Key Findings
 
-Add your actual findings here, for example:
-
 * Performance comparison across weight classes
 * Distribution of squat, bench press, and deadlift results
 * Relationship between bodyweight and lifting performance
 * Differences in total lifting performance
 
-> Replace this section with the actual results from your analysis. Avoid adding unsupported numbers.
+> Add specific numerical findings and observations after completing the analysis.
 
 ## 📚 Skills Demonstrated
 
@@ -128,6 +126,16 @@ Add your actual findings here, for example:
 * Jupyter Notebook
 * Data interpretation
 
+## 📊 Dataset
+
+The dataset used for this project is the **Powerlifting Database** available on Kaggle.
+
+**Source:** Kaggle – Open Powerlifting Database
+
+[Powerlifting Database on Kaggle](https://www.kaggle.com/datasets/open-powerlifting/powerlifting-database?select=openpowerlifting.csv&utm_source=chatgpt.com)
+
+The dataset contains powerlifting competition records that can be used to analyze athlete and lifting performance.
+
 ## 🚀 Future Improvements
 
 * Build an interactive dashboard using Streamlit
@@ -136,10 +144,6 @@ Add your actual findings here, for example:
 * Build machine learning models for prediction
 * Add interactive visualizations
 * Automate data preprocessing
-
-## 📌 Dataset Attribution
-
-This project uses data from the **OpenPowerlifting** project. The OpenPowerlifting project provides an open archive of powerlifting data and requests attribution when its data is incorporated into other projects.
 
 ## 👨‍💻 Author
 
