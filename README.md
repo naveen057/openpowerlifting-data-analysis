@@ -1,32 +1,41 @@
 # 🏋️ OpenPowerlifting Data Analysis
 
-Exploratory Data Analysis (EDA) of powerlifting competition data using Python, Pandas, Matplotlib, and Jupyter Notebook.
+## 📌 About the Project
 
-## 📌 About
+This project focuses on **Exploratory Data Analysis (EDA)** of powerlifting competition data using Python.
 
-This project explores OpenPowerlifting data to understand athlete performance, lifting results, bodyweight, and competition-related patterns.
+The analysis explores athlete performance, competition results, weight classes, lifting totals, and other factors to identify useful patterns and insights from the dataset.
 
-The analysis focuses on data cleaning, exploratory analysis, statistical summaries, and visualization.
+## 📊 Dataset
+
+The dataset contains approximately:
+
+* **Rows:** 384K+
+* **Columns:** 17
+* **Domain:** Powerlifting
+* **Source:** Kaggle – OpenPowerlifting Database
+
+The dataset includes information related to powerlifting competitions, athletes, lifts, body weight, weight classes, and competition results.
 
 ## 🎯 Objectives
 
-* Explore and understand powerlifting data
-* Clean and prepare the dataset for analysis
-* Analyze athlete and lifting performance
-* Identify patterns across different categories
-* Create meaningful data visualizations
-* Generate useful insights from the dataset
+* Understand the structure and characteristics of the dataset.
+* Clean and preprocess the data.
+* Handle missing and inconsistent values.
+* Analyze athlete and competition performance.
+* Explore relationships between different variables.
+* Identify trends and patterns using data visualization.
+* Generate meaningful insights from powerlifting data.
 
 ## 🛠️ Technologies Used
 
 * **Python**
-* **Pandas**
-* **NumPy**
-* **Matplotlib**
-* **Jupyter Notebook**
-* **Excel**
+* **Pandas** – Data manipulation and analysis
+* **NumPy** – Numerical operations
+* **Matplotlib** – Data visualization
+* **Jupyter Notebook** – Analysis and experimentation
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 openpowerlifting-data-analysis/
@@ -38,115 +47,88 @@ openpowerlifting-data-analysis/
 └── .gitignore
 ```
 
-## 🔍 Analysis Workflow
+## 🔄 Analysis Workflow
 
-```text
-Dataset
-   ↓
-Data Loading
-   ↓
-Data Cleaning
-   ↓
-Exploratory Data Analysis
-   ↓
-Statistical Analysis
-   ↓
-Data Visualization
-   ↓
-Insights
-```
+### 1. Data Loading
 
-## 📊 Analysis Areas
+The dataset is loaded into Python using Pandas.
 
-The project explores different aspects of powerlifting data, including:
+### 2. Data Cleaning
 
-* Athlete performance
-* Bodyweight
-* Squat performance
-* Bench press performance
-* Deadlift performance
+* Checked missing values
+* Removed unnecessary columns where required
+* Handled inconsistent data
+* Checked duplicate records
+* Corrected data types
+
+### 3. Exploratory Data Analysis
+
+The project analyzes:
+
+* Athlete participation
+* Competition performance
+* Body weight
+* Weight classes
+* Squat, Bench Press, and Deadlift performance
 * Total lifting performance
-* Competition results
-* Performance patterns
+* Gender-based performance
+* Trends across competitions
 
-## ▶️ How to Run
+### 4. Data Visualization
 
-### 1. Clone the repository
+Matplotlib is used to create visualizations such as:
 
-```bash
-git clone https://github.com/naveen057/openpowerlifting-data-analysis.git
-cd openpowerlifting-data-analysis
-```
+* Bar charts
+* Histograms
+* Box plots
+* Scatter plots
+* Distribution plots
 
-### 2. Install dependencies
+These visualizations help identify patterns and relationships within the data.
 
-```bash
-pip install pandas numpy matplotlib jupyter
-```
+## 📈 Key Insights
 
-### 3. Run the Jupyter Notebook
+The analysis can be used to understand:
 
-```bash
-jupyter notebook
-```
+* How athlete performance varies across different categories.
+* Distribution of body weights among athletes.
+* Differences in lifting performance.
+* Relationships between body weight and total lifted weight.
+* Participation patterns across competitions.
+* Performance trends across different weight classes.
 
-Open:
+> Specific numerical findings can be added here after completing the final analysis.
 
-```text
-OpenPowerlifting.ipynb
-```
+## 💡 Skills Demonstrated
 
-### 4. Run the Python script
+This project demonstrates practical skills in:
 
-```bash
-python eda_openpowerlifting.py
-```
-
-## 📈 Results and Insights
-
-The analysis uses statistical summaries and visualizations to identify patterns in athlete characteristics and powerlifting performance.
-
-### Key Findings
-
-* Performance comparison across weight classes
-* Distribution of squat, bench press, and deadlift results
-* Relationship between bodyweight and lifting performance
-* Differences in total lifting performance
-
-> Add specific numerical findings and observations after completing the analysis.
-
-## 📚 Skills Demonstrated
-
-* Python programming
-* Data cleaning
+* Data Cleaning
 * Exploratory Data Analysis
-* Pandas data manipulation
-* Data visualization
-* Statistical analysis
+* Data Visualization
+* Python Programming
+* Pandas
+* NumPy
+* Statistical Analysis
 * Jupyter Notebook
-* Data interpretation
-
-## 📊 Dataset
-
-The dataset used for this project is the **Powerlifting Database** available on Kaggle.
-
-**Source:** Kaggle – Open Powerlifting Database
-
-[Powerlifting Database on Kaggle](https://www.kaggle.com/datasets/open-powerlifting/powerlifting-database?select=openpowerlifting.csv&utm_source=chatgpt.com)
-
-The dataset contains powerlifting competition records that can be used to analyze athlete and lifting performance.
+* Extracting insights from real-world datasets
 
 ## 🚀 Future Improvements
 
-* Build an interactive dashboard using Streamlit
-* Add advanced statistical analysis
-* Analyze performance trends over time
-* Build machine learning models for prediction
-* Add interactive visualizations
-* Automate data preprocessing
+* Build an interactive dashboard using **Power BI or Streamlit**.
+* Apply statistical analysis to identify significant performance factors.
+* Build a machine learning model to predict lifting performance.
+* Analyze athlete performance over time.
+* Add interactive filters for gender, weight class, and competition.
+
+## 📚 Dataset Source
+
+The dataset used in this project is the **OpenPowerlifting Database** available on Kaggle.
+
+[OpenPowerlifting Database on Kaggle](https://www.kaggle.com/datasets/open-powerlifting/powerlifting-database?utm_source=chatgpt.com)
 
 ## 👨‍💻 Author
 
 **Naveen**
 
-Aspiring Software Engineer | Python | Data Science | Machine Learning
+GitHub: [naveen057](https://github.com/naveen057?utm_source=chatgpt.com)
